@@ -11,11 +11,13 @@ export const Statistics = ({ stats, title = null }) => {
     <StatisticsSection className="section statistics">
       <Container>
         <StatisticsCard>
-          <StatisticsTitle
-            className={title ? 'statistics__title' : 'visually - hidden'}
-          >
-            {title}
-          </StatisticsTitle>
+          {title ? (
+            <StatisticsTitle
+              className={title ? 'statistics__title' : 'visually - hidden'}
+            >
+              {title}
+            </StatisticsTitle>
+          ) : null}
 
           <ul className="statistics__list">
             {stats.map(stat => {
