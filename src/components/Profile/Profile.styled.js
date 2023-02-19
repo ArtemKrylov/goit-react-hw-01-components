@@ -36,7 +36,7 @@ export const ProfileSection = styled(Section)`
   & .profile__stats {
     display: flex;
 		flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     gap: 15px;
     margin-top: 15px;

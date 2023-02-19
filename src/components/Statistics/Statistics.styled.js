@@ -7,7 +7,7 @@ export const StatisticsSection = styled(Section)`
   & .statistics__list {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     gap: 5px;
     padding: 10px;
 
