@@ -1,5 +1,5 @@
-import { Section } from 'components/Section/Section.styled';
 import styled from 'styled-components';
+import { Section } from 'components/App/App.styled';
 
 export const TransationsSection = styled(Section)`
   & .transactions__table {

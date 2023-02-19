@@ -1,5 +1,5 @@
-import { Container } from 'components/Container/Container.styled';
 import PropTypes from 'prop-types';
+import { Container } from 'components/App/App.styled';
 import {
   StatisticsCard,
   StatisticsSection,
@@ -9,7 +9,7 @@ import {
 export const Statistics = ({ stats, title = null }) => {
   return (
     <StatisticsSection className="section statistics">
-      <Container>
+      <Container className="container">
         <StatisticsCard>
           {title ? (
             <StatisticsTitle

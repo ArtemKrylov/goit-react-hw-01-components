@@ -1,12 +1,12 @@
-import { Container } from 'components/Container/Container.styled';
 import PropTypes from 'prop-types';
+import { Container } from 'components/App/App.styled';
 import { ProfileName, ProfileSection } from './Profile.styled';
 
 export const Profile = ({ username, tag, location, avatar, stats }) => {
   const { followers, views, likes } = stats;
   return (
     <ProfileSection className="profile">
-      <Container>
+      <Container className="container">
         <div className="profile__card">
           <div className="profile__description">
             <img src={avatar} alt="User avatar" className="avatar" />

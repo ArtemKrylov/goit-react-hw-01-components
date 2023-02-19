@@ -1,6 +1,5 @@
-import { Section } from 'components/Section/Section.styled';
-import { Title } from 'components/Title/Title.styled';
 import styled from 'styled-components';
+import { Section, Title } from 'components/App/App.styled';
 
 export const ProfileSection = styled(Section)`
   display: flex;

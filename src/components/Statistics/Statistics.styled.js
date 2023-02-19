@@ -1,7 +1,5 @@
-import { Card } from 'components/Card/Card.styled';
-import { Section } from 'components/Section/Section.styled';
-import { Title } from 'components/Title/Title.styled';
 import styled from 'styled-components';
+import { Section, Title, Card } from 'components/App/App.styled';
 
 export const StatisticsSection = styled(Section)`
   & .statistics__list {
